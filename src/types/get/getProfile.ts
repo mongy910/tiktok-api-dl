@@ -23,6 +23,10 @@ export type Users = {
   commerceUser: boolean
   usernameModifyTime: number
   nicknameModifyTime: number
+  bioLink: any
+  ttSeller: boolean
+  followingVisibility: boolean
+  isOrganization: boolean
 }
 
 export type Stats = {

@@ -132,7 +132,11 @@ const parseDataUser = (dataUser: any, posts: Posts[]) => {
     region: dataUser.user.region,
     commerceUser: dataUser.user.commerceUserInfo.commerceUser,
     usernameModifyTime: dataUser.user.uniqueIdModifyTime,
-    nicknameModifyTime: dataUser.user.nickNameModifyTime
+    nicknameModifyTime: dataUser.user.nickNameModifyTime,
+    bioLink: dataUser.user.bioLink,
+    ttSeller: dataUser.user.ttSeller,
+    followingVisibility: !!dataUser.user.followingVisibility,
+    isOrganization: !!dataUser.user.isOrganization
   }
 
   // Statistics Result
